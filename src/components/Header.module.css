@@ -1,0 +1,151 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  /*用 left: 50%; + transform: translateX(-50%); 使元素完全实现水平居中*/
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1440px;
+  background: var(--white);
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px var(--px);
+  box-shadow: 0 10px 20px -5px hsla(0, 0%, 0%, 0.83);
+  /* z-index 属性用于控制元素在屏幕上的前后位置，该元素的层级是100，使其比大多数页面元素显示得更靠前。*/
+  z-index: 100;
+}
+
+.navbar-nav {
+  position: absolute;
+  background: var(--white);
+  /* calc()是一个CSS函数，用来计算长度或位置值，+号左右一定要空格。这里表示把元素放在navbar(距离最近的父元素)的底部，并且再向下40px。*/
+  top: calc(100% + 40px);
+  left: 30px;
+  right: 30px;
+  text-align: center;
+  box-shadow: 0 10px 30px -5px hsla(0, 0%, 0%, 0.25);
+  padding: 30px;
+  border-radius: 8px;
+  /* opacity属性用来设置元素的透明度，值的范围是0-1，值为0表示元素在页面上不可见 */
+  opacity: 0;
+  /* transform: scale() 用来缩小元素的尺寸 */
+  transform: scale(0.8);
+  pointer-events: none;
+}
+
+.nav-item a {
+  padding: 10px;
+  font-size: var(--fs-5);
+  font-weight: var(--fw-6);
+  color: var(--main-color);
+  transition: var(--default-transition);
+}
+
+/* pseudo-class 和 pseudo-element 的区别：
+     pseudo-class：用于选择某些元素的特定状态或特性，比如":hover", ":nth-child()", ":not()"
+     pseudo-element: 用于选择元素的某个部分或者创建虚拟的子元素，比如"::after","::after","::first-letter"  
+  */
+.nav-item:not(:last-child) a {
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.1);
+}
+
+.nav-item a:hover {
+  color: var(main-color);
+}
+
+.navbar-nav.active {
+  animation: menuPopup 0.5s ease forwards;
+}
+
+/* 使用 @keyframes 来自定义动画，这里定义了从动画开始时（0%）到动画中途（50%）再到动画结束时（100%），
+     元素的透明度和缩放尺寸。 */
+@keyframes menuPopup {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  /* 在50%关键帧没有定义opacity, 因为浏览器会自动计算过渡帧的值，这里的值为 (0+1)/2=0.5 */
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.navbar-showBtn {
+  display: none;
+}
+
+.nav-toggle-btn {
+  background: var(--main-color);
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-toggle-btn span {
+  background: var(--white);
+  width: 30px;
+  height: 2px;
+  transition: var(--default-transition);
+}
+
+/* 将汉堡按钮设置成“X”形状 */
+.nav-toggle-btn.active .one {
+  transform: rotate(45deg) translate(3px, 3px);
+}
+
+.nav-toggle-btn.active .two {
+  display: none;
+}
+
+.nav-toggle-btn.active .three {
+  transform: rotate(-45deg) translate(2px, -2px);
+}
+
+/** MEDIA_QUERIES **/
+@media (min-width: 992px) {
+  .navbar {
+    padding: 20px var(--px);
+  }
+
+  .navbar-nav {
+    background: transparent;
+    position: static;
+    box-shadow: none;
+    padding: 0;
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: all;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav-item:not(:last-child) a {
+    border-bottom: none;
+  }
+
+  .nav-toggle-btn {
+    display: none;
+  }
+
+  .navbar-showBtn {
+    display: block;
+  }
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
