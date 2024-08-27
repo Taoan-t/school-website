@@ -1,6 +1,11 @@
 import styles from "./Course.module.css";
 import CourseCard from "./CourseCard";
 import course1 from "../images/course-math.jpg";
+import course2 from "../images/course-reading.jpg";
+import course3 from "../images/course-robotics.jpg";
+import course4 from "../images/course-arts.jpg";
+import course5 from "../images/course-STEM.jpg";
+import course6 from "../images/course-storytelling.jpg";
 import instructor1 from "../images/avatar-instructor-1.jpg";
 import instructor2 from "../images/avatar-instructor-2.jpg";
 import instructor3 from "../images/avatar-instructor-3.jpg";
@@ -20,7 +25,7 @@ const courseItems = [
   },
   {
     title: "Reading Comprehension and Critical Thinking",
-    image: course1,
+    image: course2,
     instructorName: "Olivia Bennett",
     instructorAvtar: instructor2,
     rating: "5.0 (2k)",
@@ -29,7 +34,7 @@ const courseItems = [
   },
   {
     title: "Robotics and Coding for Young Innovators",
-    image: course1,
+    image: course3,
     instructorName: "Sophia Brooks",
     instructorAvtar: instructor3,
     rating: "5.0 (2k)",
@@ -38,7 +43,7 @@ const courseItems = [
   },
   {
     title: "Art and Design: Exploring Creativity Through Visual Arts",
-    image: course1,
+    image: course4,
     instructorName: "Emily Parker",
     instructorAvtar: instructor4,
     rating: "5.0 (2k)",
@@ -46,8 +51,8 @@ const courseItems = [
     enrolledUser: "60k",
   },
   {
-    title: "STEM Explorers: Science, Technology, Engineering, and Math",
-    image: course1,
+    title: "STEM Explorers: Science, Tech, Engineering, and Math",
+    image: course5,
     instructorName: "Lucas Mitchell",
     instructorAvtar: instructor5,
     rating: "5.0 (2k)",
@@ -56,7 +61,7 @@ const courseItems = [
   },
   {
     title: "Creative Writing and Storytelling Workshop",
-    image: course1,
+    image: course6,
     instructorName: "Ava Collins",
     instructorAvtar: instructor6,
     rating: "5.0 (2k)",

@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
 import Course from "./components/Course";
+import Event from "./components/Event";
+import Instructor from "./components/Instructor";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <CourseCategory />
       <About />
       <Course />
+      <Event />
+      <Instructor />
     </div>
   );
 }

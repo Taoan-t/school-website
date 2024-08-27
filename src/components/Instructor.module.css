@@ -1,0 +1,35 @@
+.instructor {
+  padding: var(--py) var(--px);
+}
+
+.instructor-subtitle {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.instructor-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.instructor-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  padding: 0 15px;
+}
+
+/*-----------------------------------*\
+  #media_queries
+\*-----------------------------------*/
+@media (min-width: 767px) {
+  .instructor-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .instructor-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
