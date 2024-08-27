@@ -20,7 +20,7 @@ const items = [
   },
   {
     icon: logo3,
-    title: "Science & Technology",
+    title: "Science & Tech",
     desc: "Introduce children to basic scientific concepts and technology through hands-on exploration.",
   },
   {
