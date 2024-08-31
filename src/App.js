@@ -5,6 +5,7 @@ import About from "./components/About";
 import Course from "./components/Course";
 import Event from "./components/Event";
 import Instructor from "./components/Instructor";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Course />
       <Event />
       <Instructor />
+      <Testimonials />
     </div>
   );
 }
