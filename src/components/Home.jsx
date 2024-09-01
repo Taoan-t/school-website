@@ -2,6 +2,10 @@ import styles from "./Home.module.css";
 import banner from "../images/banner.png";
 import bannerLine from "../images/banner-line.png";
 import bannerBg from "../images/banner-bg.png";
+import icon1 from "../images/icon-a.png";
+import icon2 from "../images/icon-b.png";
+// import icon3 from "../images/icon-c.png";
+import icon4 from "../images/icon-c.png";
 
 function Home() {
   return (
@@ -21,6 +25,7 @@ function Home() {
 
       <div class={styles["home-left"]}>
         <p class="section-subtitle">Welcome To WonderLearn Kids</p>
+
         <h1 class={styles["main-heading"]}>
           Get Class From Top
           <span class={styles["underline-img"]}>
@@ -53,27 +58,28 @@ function Home() {
             alt="colorful background shape"
             class={styles["background-shape"]}
           />
+
           <img src={banner} alt="banner" class={styles["banner-img"]} />
 
+          <img
+            src={icon1}
+            alt=""
+            class={`${styles["icon-1"]} smooth-zigzag-anim-1`}
+            width="80"
+          />
+          <img
+            src={icon2}
+            alt=""
+            class={`${styles["icon-2"]} smooth-zigzag-anim-2`}
+            width="80"
+          />
           {/* <img
-            src="./assets/banner-aliment-icon-1.png"
+            src={icon3}
             alt=""
-            class={`${styles["icon-1"]} "smooth-zigzag-anim-1"`}
-            width="250"
-          />
-          <img
-            src="./assets/banner-aliment-icon-2.png"
-            alt=""
-            class={`${styles["icon-2"]} "smooth-zigzag-anim-2"`}
-            width="240"
-          />
-          <img
-            src="./assets/banner-aliment-icon-3.png"
-            alt=""
-            class={`${styles["icon-3"]} "smooth-zigzag-anim-3"`}
-            width="195"
-          />
-          <img src={icon4} alt="" class={`${styles["icon-4"]} drop-anim`} /> */}
+            class={`${styles["icon-3"]} smooth-zigzag-anim-3`}
+            width="60"
+          /> */}
+          <img src={icon4} alt="" class={`${styles["icon-4"]} drop-anim`} />
         </div>
       </div>
     </section>

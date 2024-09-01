@@ -76,7 +76,7 @@ const Course = () => {
         Our Online Courses
       </p>
       <h2 class={`section-title ${styles["course-title"]}`}>
-        Find The Right Online Course For You
+        Find The Right Course For You
       </h2>
 
       <div class={styles["course-grid"]}>

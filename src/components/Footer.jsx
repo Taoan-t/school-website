@@ -87,8 +87,7 @@ const Footer = () => {
       </div>
 
       <p class={styles.copyright}>
-        Copyright © 2024 <a href="#">NewHopeLearningCenter</a>. All rights
-        reserved.
+        Copyright © 2024 <a href="#">WonderLearnKids</a>. All rights reserved.
       </p>
     </footer>
   );

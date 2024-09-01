@@ -30,7 +30,7 @@ const About = () => {
       <div class={styles["about-right"]}>
         <p class={`section-subtitle ${styles["about-subtitle"]}`}>About Us</p>
         <h2 class={`section-title ${styles["about-title"]}`}>
-          We Have Best Online Education
+          We Have Best Kids Education
         </h2>
         <p class={`section-text ${styles["about-text"]}`}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem

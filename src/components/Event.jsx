@@ -5,25 +5,25 @@ import { PlayCircleIcon } from "@heroicons/react/20/solid";
 
 const events = [
   {
-    name: "Business creativity workshops",
+    name: "Maple Magic Day",
     place: "Canada",
     startTime: "10:30am",
     endTime: "2:30pm",
-    date: new Date("2024-02-28"),
+    date: new Date("2024-05-10"),
   },
   {
-    name: "Business creativity workshops",
+    name: "Harvest Festival",
     place: "Canada",
-    startTime: "10:30am",
-    endTime: "2:30pm",
-    date: new Date("2024-02-28"),
+    startTime: "08:30am",
+    endTime: "12:30pm",
+    date: new Date("2024-10-15"),
   },
   {
-    name: "Business creativity workshops",
+    name: "Winter Wonderland Workshop",
     place: "Canada",
-    startTime: "10:30am",
-    endTime: "2:30pm",
-    date: new Date("2024-02-28"),
+    startTime: "08:30am",
+    endTime: "12:30pm",
+    date: new Date("2024-12-05"),
   },
 ];
 
