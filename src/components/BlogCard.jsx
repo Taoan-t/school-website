@@ -26,20 +26,20 @@ const BlogCard = ({ image, title, publishDate, commentsNum }) => {
 
       <div class={styles["blog-content"]}>
         <h3 class={styles["blog-title"]}>
-          <a href="#blog">{title}</a>
+          <a href="#home">{title}</a>
         </h3>
 
         <div class={styles.wrapper}>
           <div class={styles["blog-publish-date"]}>
             <CalendarDaysIcon class={styles.icon} />
-            <a href="#blog">{`${publishDate.getUTCDate()} ${
+            <a href="#home">{`${publishDate.getUTCDate()} ${
               months[publishDate.getMonth()]
             }, ${publishDate.getFullYear()}`}</a>
           </div>
 
           <div class={styles["blog-comment"]}>
             <ChatBubbleOvalLeftEllipsisIcon class={styles.icon} />
-            <a href="#blog">{commentsNum} Comments</a>
+            <a href="#home">{commentsNum} Comments</a>
           </div>
         </div>
       </div>

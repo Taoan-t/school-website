@@ -28,7 +28,7 @@ const CourseCard = ({
 
       <div class={styles["course-content"]}>
         <h3 class={styles["card-title"]}>
-          <a href="#course">{title}</a>
+          <a href="#home">{title}</a>
         </h3>
 
         <div class={`${styles["border-bottom"]} ${styles.wrapper} `}>
@@ -38,7 +38,7 @@ const CourseCard = ({
               alt="course instructor avatar"
               class={styles["author-img"]}
             />
-            <a href="#course" class={styles["author-name"]}>
+            <a href="#home" class={styles["author-name"]}>
               {instructorName}
             </a>
           </div>

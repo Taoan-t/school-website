@@ -17,7 +17,7 @@ const CourseCategoryItem = ({ icon, title, desc }) => {
       </div>
       <div>
         <h3 class={styles["category-title"]}>
-          <a href="#course">{title}</a>
+          <a href="#home">{title}</a>
         </h3>
         <p class={styles["category-subtitle"]}>{desc}</p>
       </div>
