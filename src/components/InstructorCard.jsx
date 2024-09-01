@@ -8,13 +8,13 @@ const InstructorCard = ({ instructor }) => {
         <img src={instructor.image} alt="instructor" />
 
         <div class={styles["social-link"]}>
-          <a href="#" class={styles.facebook}>
+          <a href="#home" class={styles.facebook}>
             <FacebookLogo size={28} weight="fill" />
           </a>
-          <a href="#" class={styles.instagram}>
+          <a href="#home" class={styles.instagram}>
             <InstagramLogo size={28} weight="fill" />
           </a>
-          <a href="#" class={styles.twitter}>
+          <a href="#home" class={styles.twitter}>
             <XLogo size={28} weight="fill" />
           </a>
         </div>

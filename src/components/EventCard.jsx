@@ -31,7 +31,7 @@ const EventCard = ({ name, place, startTime, endTime, date }) => {
           </p>
           <p class={styles.place}>{place}</p>
         </div>
-        <a href="#" class={styles["event-name"]}>
+        <a href="#home" class={styles["event-name"]}>
           {name}
         </a>
       </div>

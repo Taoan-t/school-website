@@ -40,16 +40,16 @@ const Footer = () => {
           </p>
 
           <div class={styles["social-link"]}>
-            <a href="#">
+            <a href="#home">
               <FacebookLogo class={styles.icon} />
             </a>
-            <a href="#">
+            <a href="#home">
               <InstagramLogo class={styles.icon} />
             </a>
-            <a href="#">
+            <a href="#home">
               <XLogo class={styles.icon} />
             </a>
-            <a href="#">
+            <a href="#home">
               <YoutubeLogo class={styles.icon} />
             </a>
           </div>
@@ -87,7 +87,8 @@ const Footer = () => {
       </div>
 
       <p class={styles.copyright}>
-        Copyright © 2024 <a href="#">WonderLearnKids</a>. All rights reserved.
+        Copyright © 2024 <a href="#home">WonderLearnKids</a>. All rights
+        reserved.
       </p>
     </footer>
   );
