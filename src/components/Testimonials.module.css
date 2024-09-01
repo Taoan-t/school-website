@@ -1,6 +1,6 @@
 .testimonials {
   padding: var(--py) var(--px);
-  background: var(--cultured);
+  background: var(--light-grey);
 }
 
 .testimonials-subtitle {
@@ -31,7 +31,7 @@
 }
 
 .testimonials-text {
-  color: var(--sonic-silver);
+  color: var(--medium-grey);
   font-family: "Roboto", sans-serif;
   font-size: var(--fs-6);
   line-height: 1.6;

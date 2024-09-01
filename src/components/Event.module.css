@@ -1,6 +1,6 @@
 .event {
   padding: var(--py) var(--px);
-  background: var(--cultured);
+  background: var(--light-grey);
 }
 
 .event-left {
@@ -20,7 +20,7 @@
   bottom: 100px;
   right: 0;
   padding: 30px 40px;
-  background: var(--main-color);
+  background: var(--grey-color);
   display: flex;
   align-items: center;
   gap: 20px;

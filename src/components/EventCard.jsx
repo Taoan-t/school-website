@@ -19,7 +19,7 @@ const EventCard = ({ name, place, startTime, endTime, date }) => {
   return (
     <div class={styles["event-card"]}>
       <div class={styles["content-left"]}>
-        <p class={styles.day}>{date.getDate()}</p>
+        <p class={styles.day}>{date.getUTCDate()}</p>
         <p class={styles.month}>{`${
           months[date.getMonth()]
         }, ${date.getFullYear()}`}</p>

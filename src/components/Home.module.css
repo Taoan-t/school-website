@@ -17,7 +17,7 @@
   background: radial-gradient(
     ellipse at center,
     hsla(217, 100%, 50%, 0.3),
-    transparent 70%
+    transparent 50%
   );
 }
 
@@ -31,8 +31,8 @@
   border-radius: 50%;
   background: radial-gradient(
     ellipse at center,
-    hsla(15, 100%, 55%, 0.3),
-    transparent 70%
+    /* hsla(15, 100%, 55%, 0.3), */ hsla(166, 100%, 36%, 0.3),
+    transparent 50%
   );
 }
 
@@ -40,7 +40,7 @@
   position: absolute;
 }
 
-.home .shape-1 {
+/* .home .shape-1 {
   top: 14%;
   left: 8%;
 }
@@ -58,7 +58,7 @@
 .home .shape-4 {
   top: 570px;
   right: 110px;
-}
+} */
 
 .home-left {
   margin-bottom: 60px;
@@ -71,7 +71,7 @@
 }
 
 .main-heading {
-  color: var(--oxford-blue);
+  color: var(--grey-color);
   font-size: var(--fs-1);
   font-weight: var(--fw-9);
   line-height: 1.5;
@@ -130,7 +130,7 @@
   z-index: 1;
 }
 
-.home-right .icon-1 {
+/* .home-right .icon-1 {
   top: 200px;
   left: 20px;
 }
@@ -152,7 +152,7 @@
 .icon-4 {
   filter: drop-shadow(0 10px 20px hsla(0, 0%, 0%, 0.2));
   z-index: 5;
-}
+} */
 
 /** MEDIA_QUERIES **/
 @media (min-width: 375px) {

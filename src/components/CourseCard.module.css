@@ -38,13 +38,13 @@
   border-radius: 20px;
 }
 
-.course-banner .orange {
+/* .course-banner .orange {
   background: var(--red-orange-color-wheel);
 }
 
 .course-banner .blue {
   background: var(--ultramarine-blue);
-}
+} */
 
 .course-card .course-content {
   padding: 30px;
@@ -56,7 +56,7 @@
 }
 
 .course-card .card-title a {
-  color: var(--oxford-blue);
+  color: var(--grey-color);
   font-size: var(--fs-4);
   font-weight: var(--fw-7);
   line-height: 1.3;
@@ -76,7 +76,7 @@
 .course-card .border-bottom {
   margin-bottom: 15px;
   padding-bottom: 30px;
-  border-bottom: 1px solid var(--light-gray);
+  border-bottom: 1px solid var(--medium-grey);
 }
 
 .course-card .author {
@@ -94,12 +94,12 @@
 .course-card .author-name {
   font-family: "Roboto", sans-serif;
   font-size: var(--fs-6);
-  color: var(--sonic-silver);
+  color: var(--medium-grey);
   transition: var(--default-transition);
 }
 
 .course-card .author-name:hover {
-  color: var(--oxford-blue);
+  color: var(--grey-color);
 }
 
 .course-card .rating {
@@ -118,7 +118,7 @@
 .course-card .rating p {
   font-family: "Roboto", sans-serif;
   font-size: var(--fs-6);
-  color: var(--sonic-silver);
+  color: var(--grey-color);
 }
 
 .course-card .course-price {

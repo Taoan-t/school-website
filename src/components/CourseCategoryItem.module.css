@@ -29,7 +29,7 @@
 }
 
 .category-title a {
-  color: var(--oxford-blue);
+  color: var(--grey-color);
   font-size: var(--fs-4);
   font-weight: var(--fw-7);
   margin-bottom: 10px;
@@ -37,7 +37,7 @@
 
 .category-subtitle {
   font-family: "Roboto", sans-serif;
-  color: var(--sonic-silver);
+  color: var(--medium-grey);
   font-size: var(--fs-6);
 }
 

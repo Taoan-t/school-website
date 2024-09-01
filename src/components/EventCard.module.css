@@ -12,19 +12,19 @@
   text-align: center;
   padding-bottom: 15px;
   margin-bottom: 25px;
-  box-shadow: 0 16px 0 -15px var(--light-gray);
+  box-shadow: 0 16px 0 -15px var(--light-grey);
 }
 
 .event-card .day {
   font-size: var(--fs-3);
   font-weight: var(--fw-7);
-  color: var(--blue-crayola);
+  color: var(--main-color);
 }
 
 .event-card .month {
   font-size: var(--fs-6);
   font-weight: var(--fw-5);
-  color: var(--blue-crayola);
+  color: var(--main-color);
 }
 
 .event .schedule {
@@ -36,17 +36,17 @@
 .event .schedule p {
   font-family: "Roboto", sans-serif;
   font-size: var(--fs-6);
-  color: var(--sonic-silver);
+  color: var(--light-grey);
 }
 
 .event .schedule .time {
   padding-right: 20px;
   margin-right: 20px;
-  box-shadow: 4px 0 0 -3px var(--light-gray);
+  box-shadow: 4px 0 0 -3px var(--light-grey);
 }
 
 .event-card .event-name {
-  color: var(--oxford-blue);
+  color: var(--grey-color);
   font-size: var(--fs-4);
   font-weight: var(--fw-7);
   line-height: 1.6;
@@ -55,11 +55,11 @@
 }
 
 .event-card:hover {
-  border-color: var(--red-orange-color-wheel);
+  border-color: var(--accent-color);
 }
 
 .event-card:hover .event-name {
-  color: var(--red-orange-color-wheel);
+  color: var(--accent-color);
 }
 
 /*-----------------------------------*\

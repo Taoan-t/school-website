@@ -1,6 +1,6 @@
 .about {
   padding: var(--py) var(--px);
-  background: var(--cultured);
+  background: var(--light-grey);
   overflow: hidden;
 }
 .about-left .img-box {
@@ -67,7 +67,7 @@
 }
 
 .about-ul p {
-  color: var(--oxford-blue);
+  color: var(--grey-color);
   font-family: "Roboto", sans-serif;
   font-size: var(--fs-6);
   font-weight: var(--fw-5);

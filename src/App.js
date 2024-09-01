@@ -6,6 +6,9 @@ import Course from "./components/Course";
 import Event from "./components/Event";
 import Instructor from "./components/Instructor";
 import Testimonials from "./components/Testimonials";
+import Blog from "./components/Blog";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
       <Event />
       <Instructor />
       <Testimonials />
+      <Blog />
+      <Contact />
+      <Footer />
     </div>
   );
 }

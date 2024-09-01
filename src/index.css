@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700;800;900&family=Roboto:wght@400;500&display=swap");
 /*-----------------------------------*\
   #VARIABLE
 \*-----------------------------------*/
@@ -7,16 +8,31 @@
    */
 
   /* --red-orange-color-wheel: hsl(15, 100%, 55%); */
-  --main-color: #1865f2;
-  --orange-color: #e8590c;
-  --ultramarine-blue: hsl(217, 100%, 50%);
+
+  /* --main-color: #74b9ff; */
+  /* --accent-color: #fd7e14; */
+
+  --main-color: #38d9a9;
+  --accent-color: #ff6b6b;
+  --grey-color: #0b2149;
+
+  --dark-grey: #2d3436;
+  --medium-grey: #636e72;
+  --light-grey: #f1f3f5;
+  --white: #fff;
+
+  --icon-bg-color: #1865f2;
+  /* --contact-color: #21242c;
+  --footer-color: #0b2149; */
+
+  /* --sonic-silver: #b2bec3;
+   */
+
+  /* --ultramarine-blue: hsl(217, 100%, 50%);
   --lavender-blue: hsl(229, 96%, 91%);
   --oxford-blue: hsl(229, 84%, 12%);
-  --light-gray: hsl(0, 0%, 80%);
-  --sonic-silver: hsl(0, 0%, 47%);
   --blue-crayola: hsl(216, 98%, 52%);
-  --cultured: hsl(228, 26%, 96%);
-  --white: #fff;
+  --cultured: hsl(228, 26%, 96%); */
 
   /**
    * typography 
@@ -94,16 +110,16 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--light-gray);
+  background: var(--light-grey);
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: var(--red-orange-color-wheel);
+  background: var(--grey-color);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--ultramarine-blue);
+  background: var(--main-color);
 }
 
 /*-----------------------------------*\
@@ -129,7 +145,7 @@ html {
 
 .btn-primary,
 .btn-secondary .square {
-  background: var(--red-orange-color-wheel);
+  background: var(--grey-color);
 }
 
 .btn .square {
@@ -153,21 +169,21 @@ html {
 
 .btn-primary .square,
 .btn-secondary {
-  background: var(--oxford-blue);
+  background: var(--main-color);
 }
 
 .btn-primary,
 .btn-secondary .square {
-  background: var(--main-color);
+  background: var(--grey-color);
 }
 
 .btn-primary .square,
 .btn-secondary {
-  background: var(--oxford-blue);
+  background: var(--main-color);
 }
 
 .section-subtitle {
-  color: var(--ultramarine-blue);
+  color: var(--main-color);
   font-weight: var(--fs-7);
   text-transform: uppercase;
   text-align: center;
@@ -175,7 +191,7 @@ html {
 }
 
 .section-text {
-  color: var(--sonic-silver);
+  color: var(--medium-grey);
   font-family: "Roboto", sans-serif;
   font-size: var(--fs-6);
   line-height: 1.6;
@@ -184,7 +200,7 @@ html {
 .section-title {
   font-size: var(--fs-2);
   font-weight: var(--fw-8);
-  color: var(--oxford-blue);
+  color: var(--grey-color);
   line-height: 1.3;
 }
 
